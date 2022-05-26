@@ -1,0 +1,40 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* { 
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    min-width: 35rem;
+}
+
+.header {
+    padding: 1rem 0 1.5rem 0;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 2px dotted black;
+}
+
+.header__name {
+    margin: 0;
+}
+
+.header__job {
+    display: block;
+    margin: 0.5rem 0;
+
+    font-size: 1rem;
+}
+
+.header_email, .header_github {
+    margin-left: auto;
+}
